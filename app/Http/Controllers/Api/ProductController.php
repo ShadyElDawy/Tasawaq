@@ -11,14 +11,10 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
-        return ProductCollection::collection(Product::all());
+        return ProductCollection::collection(Product::paginate(20));
     }
 
     /**
