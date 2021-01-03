@@ -3,6 +3,8 @@
 namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Model\Product;
+
 
 class Review extends Model
 {
@@ -10,7 +12,7 @@ class Review extends Model
 
 
 
-    public function Product(){
-        $this->belongsTo(Product::class);
+    public function product(){
+        return $this->belongsTo(Product::class);
     }
 }

@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d36f47b8-aa6d-4499-9466-57398ee339f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ReviewFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ReviewFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/ReviewSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ReviewSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609655262570</updated>
-      <workItem from="1609655263636" duration="5272000" />
+      <workItem from="1609655263636" duration="8633000" />
     </task>
     <servers />
   </component>
@@ -160,6 +156,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1609663208109">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1609663208109" />
     <state width="639" height="194" key="GridCell.Tab.0.bottom" timestamp="1609655594458">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -176,9 +176,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="639" height="194" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609655594458" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1609657598857">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1609663921393">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1609657598857" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1609663921393" />
   </component>
 </project>
