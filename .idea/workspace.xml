@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d36f47b8-aa6d-4499-9466-57398ee339f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_063353_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_063353_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_063556_create_reviews_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_063556_create_reviews_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609655262570</updated>
-      <workItem from="1609655263636" duration="1343000" />
+      <workItem from="1609655263636" duration="2779000" />
     </task>
     <servers />
   </component>
@@ -166,5 +172,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="639" height="194" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609655594458" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1609657598857">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1609657598857" />
   </component>
 </project>
