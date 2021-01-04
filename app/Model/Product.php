@@ -8,6 +8,9 @@ use App\Model\Review;
 
 class Product extends Model
 {
+    protected $fillable = [
+        'name','details','price','stock','discount'
+    ];
 
 
 

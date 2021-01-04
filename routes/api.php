@@ -27,7 +27,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::apiResource('/products','Api\ProductController');
+Route::apiResource('/products','Api\ProductController')->except('update');
+Route::post('/products/{product}','Api\ProductController@update');
 Route::group(['prefix' => 'products'],function (){
     Route::apiResource('/{product}/reviews','Api\ReviewController');
 });
