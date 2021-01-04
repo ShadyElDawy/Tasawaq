@@ -52,18 +52,14 @@ class ProductController extends Controller
         $product->update($request->all());
 
         return response(
-            ['data' => new ProductResource($product)], 200);
+            ['data' => new ProductResource($product)], Response::HTTP_CREATED);
 
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
+
+    public function destroy(Product $product)
     {
-        //
+        $product->delete();
+        return response(null, Response::HTTP_NO_CONTENT);
     }
 }
