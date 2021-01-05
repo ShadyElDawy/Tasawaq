@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
 
+            UserSeeder::class, //caling user first, cuz product needs to pick from user
             ProductSeeder::class,
             ReviewSeeder::class,    ]);
 
