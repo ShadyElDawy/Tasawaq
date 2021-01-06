@@ -30,12 +30,13 @@ class ProductController extends Controller
 
     public function store(ProductRequest $request)
     {
-        $product = new Product();
-        $product->name = $request->name;
-        $product->details= $request->details;
-        $product->price= $request->price;
-        $product->stock= $request->stock;
-        $product->discount= $request->stock;
+        $product = new Product($request->all());
+        $product->user_id = Auth::id(); //assign product->user_id to current logged in user
+//        $product->name = $request->name;
+//        $product->details= $request->details;
+//        $product->price= $request->price;
+//        $product->stock= $request->stock;
+//        $product->discount= $request->stock;
 
         $product->save();
 

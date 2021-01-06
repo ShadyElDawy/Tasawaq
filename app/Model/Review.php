@@ -8,7 +8,9 @@ use App\Model\Product;
 
 class Review extends Model
 {
-    //
+    protected $fillable = [
+        'customer','review','star',
+    ];
 
 
 
