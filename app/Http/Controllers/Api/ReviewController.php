@@ -53,9 +53,12 @@ class ReviewController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request,Product $product,Review $review)
     {
-        //
+        // we are passing three params as our POST route sends product id and review id
+        //authorization of updating review is being handled from api consumer, he will handle the owner of review auth
+        $review->update($request->all());
+        return response(['data' => new ReviewResource($review)],Response::HTTP_CREATED);
     }
 
     /**
@@ -64,8 +67,9 @@ class ReviewController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Product $product,Review $review)
     {
-        //
+        $review->delete();
+        return response(null, Response::HTTP_NO_CONTENT);
     }
 }
